@@ -119,7 +119,7 @@
 
 ## 5. Dicionário de Dados Conceitual (Preliminar)
 
-📄 **[Dicionário de Dados (HTML)](dicionario_dados.html)**
+📄 **[Dicionário de Dados (HTML)](file:///C:/Users/BEATRIZFONSECADIAS/Downloads/dicionario_dados.html)**
 
 ---
 
