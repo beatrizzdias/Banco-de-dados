@@ -119,7 +119,7 @@
 
 ## 5. Dicionário de Dados Conceitual (Preliminar)
 
-📄 **[Dicionário de Dados (HTML)](https://bia12diasfonseca-cyber.github.io/Entrega-1-Banco-de-dados/dicionario_dados.html)**
+📄 **[Dicionário de Dados (HTML)]([https://bia12diasfonseca-cyber.github.io/Entrega-1-Banco-de-dados/dicionario_dados.html](https://bia12diasfonseca-cyber.github.io/Entrega-1-Banco-de-dados/dicionario_dados.html))**
 
 ---
 
