@@ -188,7 +188,6 @@ As cardinalidades seguem o formato (mín,máx) do DER, lidas "do outro lado": o 
 
  ![Diagrama Entidade-Relacionamento](DiagramaDER.jpg)
 
-  ![Diagrama Entidade-Relacionamento em pdf](DiagramaDER.pdf)
 
 ---
 
