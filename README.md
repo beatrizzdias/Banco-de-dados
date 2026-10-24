@@ -17,12 +17,12 @@
 - **Nome e natureza da organização:** Clínica Sued Odontologia Humanizada — clínica odontológica particular, com fins lucrativos, atualmente em processo de implantação de atendimento por convênio (1 convênio).
 - **Contexto e porte:** clínica em funcionamento há 6 meses. Estrutura enxuta: 1 sala de atendimento e 1 funcionária (a própria dentista responsável, Tamires, que também acumula a função de recepção/agendamento). Atende cerca de 20 pacientes cadastrados, com uma média de 7 atendimentos por semana. Os serviços oferecidos incluem atendimento clínico geral, implantes e próteses, além de outros procedimentos como limpeza, cirurgia, endodontia e clareamento.
 - **Problemas e necessidades identificados:** as informações da clínica estão divididas entre um aplicativo criado com apoio de IA e fichas clínicas físicas, sem prontuário eletrônico. Os problemas, numerados para acompanhamento no restante do relatório, são:
-  - **P1 — Prontuário e histórico só em papel** (anamnese e ficha de evolução físicas), difíceis de consultar. Atendido por `paciente`, `telefone`, `tratamento`, `agendamento` e `procedimento_realizado`.
-  - **P2 — Agendamento manual** por WhatsApp e Google Agenda, sem bloqueio automático de horário. Atendido por `agendamento`.
-  - **P3 — Pagamentos sem registro em sistema**, com pendências controladas pelo prontuário. Atendido por `pagamento`.
-  - **P4 — Busca lenta de pacientes e do financeiro**, a maior necessidade relatada pela responsável. Atendido por `paciente`, `telefone`, `pagamento` e `despesa`.
-  - **P5 — Dificuldade de captar clientes**, relatada pela responsável. A clínica não registra de onde vem o paciente, e **o DER desta entrega não cobre este problema**: seria preciso guardar a data de cadastro e o canal de captação do paciente.
-  - **P6 — Despesas em planilha separada**, sem ligação com o restante. Atendido por `despesa`, `categoria_despesa` e pela ligação com `tratamento`.
+  — Prontuário e histórico só em papel** (anamnese e ficha de evolução físicas), difíceis de consultar. Atendido por `paciente`, `telefone`, `tratamento`, `agendamento` e `procedimento_realizado`.
+  — Agendamento manual** por WhatsApp e Google Agenda, sem bloqueio automático de horário. Atendido por `agendamento`.
+  — Pagamentos sem registro em sistema**, com pendências controladas pelo prontuário. Atendido por `pagamento`.
+  — Busca lenta de pacientes e do financeiro**, a maior necessidade relatada pela responsável. Atendido por `paciente`, `telefone`, `pagamento` e `despesa`.
+  — Dificuldade de captar clientes**, relatada pela responsável. A clínica não registra de onde vem o paciente, e **o DER desta entrega não cobre este problema**: seria preciso guardar a data de cadastro e o canal de captação do paciente.
+  — Despesas em planilha separada**, sem ligação com o restante. Atendido por `despesa`, `categoria_despesa` e pela ligação com `tratamento`.
 - **Justificativa da escolha:** a clínica é pequena o suficiente para ser modelada nesta etapa (poucos profissionais, processos ainda simples), mas já gera entidades e relacionamentos suficientes para um modelo relevante: pacientes, dentistas, agendamentos, procedimentos, tratamentos, pagamentos e despesas. Além disso, por ser uma operação recém-criada e ainda sem sistema informatizado estruturado, o grupo tem espaço real para propor melhorias que a própria clínica já demonstrou desejar (prontuário eletrônico, busca rápida, controle financeiro).
 - **Evidências da organização:**
   - **Endereço:** Praça Nelson Sales de Abreu, 103 - Sl 04, Cidade Patriarca, São Paulo - SP, CEP 03547-100
