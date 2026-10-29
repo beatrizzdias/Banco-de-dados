@@ -26,7 +26,7 @@
   - **1 cirurgiã-dentista**, que também faz a gestão da clínica (não há outros profissionais cadastrados);
   - **6 meses** de funcionamento nas instalações atuais;
   - **7 serviços** no catálogo de procedimentos (limpeza, cirurgia, manutenção, endodontia, implante, prótese e clareamento);
-  - **7 categorias** de despesa na planilha de controle (aluguel, luz, impostos, laboratórios, material dental, empréstimos e gastos eventuais);
+  - **7 categorias** de despesa na planilha de controle (aluguel, luz, impostos, laboratório, materiais dentarios, empréstimos e gastos eventuais);
   - **1 convênio** em implantação.
 - **Problemas e necessidades identificados** (detalhados em [`levantamento/levantamento.md`](levantamento/levantamento.md), seção 4):
   - **P1 — Prontuário e histórico clínico apenas em papel:** as fichas de anamnese e de evolução ficam só em papel, o que dificulta consultar o histórico de procedimentos do paciente e deixa a informação de saúde (dado sensível, LGPD) sem restrição de acesso por perfil e sem trilha de auditoria.
