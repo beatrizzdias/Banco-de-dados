@@ -336,7 +336,7 @@ O modelo lógico foi criado no **brModelo**, na notação do modelo lógico do b
 
 ## 3. Script SQL Completo
 
-Arquivo: [`docs/script.sql`](docs/script.sql). SGBD: **MySQL 8.0** (testado do zero, em banco vazio, no MySQL 8.0.46, sem erros). Execução: `mysql -u usuario -p < docs/script.sql`, ou abrir o arquivo no MySQL Workbench e executar todo o script.
+Arquivo: [`docs/SQL.sql`](docs/SQL.sql). SGBD: **MySQL 8.0** (testado do zero, em banco vazio, no MySQL 8.0.46, sem erros). Execução: `mysql -u usuario -p < docs/script.sql`, ou abrir o arquivo no MySQL Workbench e executar todo o script.
 
 **Ordem do script:**
 
@@ -392,7 +392,7 @@ A data de referência das consultas é a variável `@hoje` (definida no início 
 
 ## 4. Massa de Dados
 
-A massa de dados está **incluída no script** ([`docs/script.sql`](docs/script.sql), seção 4). Ela é **fictícia**: nenhum nome, telefone, valor ou informação de saúde real foi usado, e os CPFs têm dígito verificador inválido de propósito. É coerente com as operações observadas na clínica.
+A massa de dados está **incluída no script** ([`docs/SQL.sql`](docs/SQL.sql), seção 4). Ela é **fictícia**: nenhum nome, telefone, valor ou informação de saúde real foi usado, e os CPFs têm dígito verificador inválido de propósito. É coerente com as operações observadas na clínica.
 
 **Como o volume real justifica a quantidade de registros:**
 
@@ -438,7 +438,6 @@ Estrutura de arquivos na branch `main`:
 
 ## 6. Uso de Inteligência Artificial
 
-> [COMPLETAR: confirmar com o grupo todos os usos de IA. Abaixo estão registrados os usos do **Claude (Anthropic)** que aconteceram na conversa usada para este trabalho. Se o grupo usou outras ferramentas (por exemplo, para gerar o script ou a massa de dados, ou para pesquisar processos, requisitos, regras e KPIs típicos), cada uso precisa de uma linha nas tabelas abaixo.]
 
 ### Uso 1 — Claude: aprender e usar o MySQL
 
@@ -481,20 +480,9 @@ Estrutura de arquivos na branch `main`:
 
 ### Outros usos de IA
 
-[COMPLETAR: declarar, com ferramenta, etapa, prompts, respostas, correções e reflexão, qualquer outro uso de IA no trabalho: geração do script SQL, geração da massa de dados, pesquisa de processos, requisitos, regras e KPIs típicos, escrita ou revisão de texto. Se o grupo não usou IA em alguma etapa, declarar isso explicitamente.]
 
 ---
 
 ## 7. Apresentação Corporativa Final
 
-Pitch de 8 minutos. Slides: [COMPLETAR: link ou caminho dos slides]. Apresentadores: [COMPLETAR: quem fala em cada parte; todos os integrantes participam e estão presentes para a defesa].
 
-Roteiro, na ordem pedida:
-
-1. **Problema:** a clínica controla agenda, pagamentos, despesas e prontuário em Google Agenda, cadernos, planilha e papel (P1 a P6).
-2. **Solução:** banco de dados MySQL com 14 tabelas que reúne todos os dados da clínica.
-3. **Modelo lógico:** diagrama do brModelo (seção 2 deste README).
-4. **SQL rodando:** execução do script do zero no MySQL Workbench (seção 3).
-5. **Consultas gerenciais e de auditoria:** [COMPLETAR: escolher 2 ou 3 consultas para a demonstração, por exemplo uma gerencial de agenda, uma financeira e uma de auditoria].
-6. **Potencial para BI e IA:** KPIs e aplicações da seção 1.6.
-7. **Benefícios para a decisão:** controle de quem deve e de quanto, de horários perdidos, de custo e margem por tratamento, e de acesso ao histórico do paciente.
