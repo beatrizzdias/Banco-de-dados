@@ -2,20 +2,6 @@
 
 ### Clínica Sued Odontologia Humanizada — sistema de gestão de informações
 
-> Relatório Técnico Final do grupo. Os demais artefatos ficam em arquivos separados, com link neste README:
->
-> | Artefato | Arquivo |
-> | :---- | :---- |
-> | Levantamento (texto do grupo) | [`levantamento/levantamento.md`](levantamento/levantamento.md) |
-> | DER conceitual revisado (brModelo) | [`diagramas/DER_conceitual.png`](diagramas/DER_conceitual.png) · [PDF](diagramas/Diagrama_DER.pdf) |
-> | Modelo lógico (brModelo) | [`diagramas/Modelo_logico.png`](diagramas/Modelo_logico.png) · [PDF](diagramas/Modelo_logico.pdf) |
-> | Dicionário de dados (HTML único) | [`docs/dicionario_dados.html`](docs/dicionario_dados.html) |
-> | Script SQL completo + massa de dados | [`docs/script.sql`](docs/script.sql) |
-> | Fotos da visita | [`imagens/`](imagens/) |
-> | Slides do pitch | [COMPLETAR: link ou caminho dos slides] |
-
----
-
 ## 1. Relatório Técnico Final
 
 ### Integrantes
