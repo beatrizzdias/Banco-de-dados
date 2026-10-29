@@ -23,7 +23,7 @@
 * **Endereço:** Praça Nelson Sales de Abreu, 103 - Sl 04, Cidade Patriarca, São Paulo - SP, CEP 03547-100.
 * **Presença Digital e Evidência:** 
   * **Perfil no Google Meu Negócio:** a responsável informou que a clínica possui perfil no Google Meu Negócio. A ficha da empresa pode ser vista no Google Maps: [Clínica Sued Odontologia Humanizada no Google Maps](https://maps.app.goo.gl/E1UdxAZoc6zMUEYx5).
-* **Declaração de Vínculo do Grupo:** a integrante **Letícia Santos da Silva** tem parentesco com a proprietária da clínica, a Dra. Tamires: são **primas**. Declaramos o vínculo por transparência. A pesquisa de campo foi feita por entrevista e observação presencial, como descrito na seção 2, e o parentesco não substitui esse levantamento. Nenhum outro integrante do grupo declarou vínculo com a organização.
+* **Declaração de Vínculo do Grupo:** a integrante **Letícia Santos da Silva** tem parentesco com a proprietária da clínica, a Dra. Tamires: são **primas**. Declaramos o vínculo por transparência. A pesquisa de campo foi feita por entrevista e observação presencial, como descrito na seção 2, e o parentesco não substitui esse levantamento. Nenhum outro integrante do grupo tem vínculo com a organização.
  
 
 ---
