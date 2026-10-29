@@ -41,7 +41,9 @@
  
     ![Fotos da Clínica Sued Odontologia Humanizada](imagens/foto-recepção.jpeg)
 
-    !(imagens/foto-consultorio.jpeg)
+    ![Foto da da Clínica Sued Odontologia Humanizada](imagens/foto-consultorio.jpeg)
+
+
 
 
 ---
