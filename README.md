@@ -56,22 +56,22 @@
 
 #### Relato da entrevista
 
-- **Quem:** entrevistada: Dra. Tamires Sued (cirurgiã-dentista e gestora). Integrantes do grupo presentes: Letícia Santos da Silva e [COMPLETAR: demais integrantes que participaram da entrevista].
-- **Quando e onde:** 24 de outubro de 2026, às [COMPLETAR: horário], nas instalações físicas da clínica (Praça Nelson Sales de Abreu, 103 — Sl 04, São Paulo — SP).
+- **Quem:** entrevistada: Dra. Tamires Pereira (cirurgiã-dentista e gestora). Integrantes do grupo presente: Letícia Santos da Silva.
+- **Quando e onde:** 7 de outubro de 2026, nas instalações físicas da clínica (Praça Nelson Sales de Abreu, 103 — Sl 04, São Paulo — SP).
 - **Comprovação:** fotos em `imagens/foto_visita.jpeg` e `imagens/foto_clinica.jpg`, exibidas na seção anterior.
 - **O que foi levantado (resumo).** O texto completo está em [`levantamento/levantamento.md`](levantamento/levantamento.md).
   - **O que a responsável informou (entrevista):**
-    - o contato com o paciente ocorre por WhatsApp ou telefone, e o cadastro na recepção exige nome e ao menos um telefone;
-    - a agenda é controlada pelo Google Agenda e pelo controle manual da dentista;
-    - os pagamentos são feitos em Pix, crédito, débito ou dinheiro, com possibilidade de parcelamento ou pagamento fracionado;
-    - recibos e notas são emitidos só quando o paciente pede;
-    - as despesas são controladas em planilha, por categoria;
-    - o convênio ainda está em implantação;
-    - a clínica não controla estoque de materiais, não registra a origem do paciente e não tem integração fiscal.
+    - O contato com o paciente ocorre por WhatsApp ou telefone, e o cadastro na recepção exige nome e ao menos um telefone;
+    - A agenda é controlada pelo Google Agenda e pelo controle manual da dentista;
+    - Os pagamentos são feitos em Pix, crédito, débito ou dinheiro, com possibilidade de parcelamento ou pagamento fracionado;
+    - Recibos e notas são emitidos só quando o paciente pede;
+    - As despesas são controladas em planilha, por categoria;
+    - O convênio ainda está em implantação;
+    - A clínica não controla estoque de materiais, não registra a origem do paciente e não tem integração fiscal.
   - **O que o grupo observou presencialmente (separado do que foi dito):**
-    - a confirmação dos pacientes do dia é feita por mensagens de WhatsApp enviadas no balcão de recepção;
-    - durante a consulta, a dentista anota os procedimentos em ficha física de evolução, em papel, sobre a mesa do consultório;
-    - pacientes em tratamentos continuados de prótese e implante fazem acertos parciais na recepção, e o controle da parte pendente era feito em cadernos, o que confirmou a necessidade do campo `status` (`pendente` ou `pago`) em `pagamento`.
+    - A confirmação dos pacientes do dia é feita por mensagens de WhatsApp enviadas no balcão de recepção;
+    - Durante a consulta, a dentista anota os procedimentos em ficha física de evolução, em papel, sobre a mesa do consultório;
+    - Pacientes em tratamentos continuados de prótese e implante fazem acertos parciais na recepção, e o controle da parte pendente era feito em cadernos, o que confirmou a necessidade do campo `status` (`pendente` ou `pago`) em `pagamento`.
   - **Nova visita e mudanças em relação à Entrega 1:** [COMPLETAR: informar se houve nova visita além da entrevista da Entrega 1 e o que mudou em processos, regras, volumes e problemas].
 
 #### Processos de negócio
