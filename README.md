@@ -30,7 +30,7 @@
   - **1 convênio** em implantação.
 - **Problemas e necessidades identificados** (detalhados em [`levantamento/levantamento.md`](levantamento/levantamento.md), seção 4):
   - **P1 — Prontuário e histórico clínico apenas em papel:** as fichas de anamnese e de evolução ficam só em papel, o que dificulta consultar o histórico de procedimentos do paciente e deixa a informação de saúde (dado sensível, LGPD) sem restrição de acesso por perfil e sem trilha de auditoria.
-  - **P2 — Agendamento manual:** a agenda usa o Google Agenda e o controle manual da dentista, sem validação automática; há risco de agendamento duplo (mesmo dentista, mesma data e hora) e cancelamentos e faltas ficam sem acompanhamento.
+  - **P2 — Agendamento manual:** a agenda é feita pelo Google Agenda e o controle manual da dentista, sem validação automática; há risco de agendamento duplo (mesmo dentista, mesma data e hora) e cancelamentos e faltas ficam sem acompanhamento.
   - **P3 — Pagamentos sem registro:** pagamentos parcelados, entradas e saldos pendentes são anotados de modo informal em fichas e cadernos, sem controle de quem deve e quanto.
   - **P4 — Busca lenta de pacientes e do financeiro:** pacientes são identificados só pelo nome em fichas físicas, sem identificador único (homônimos) e com telefones sem padronização.
   - **P5 — Captação de clientes (atendido parcialmente):** a origem do paciente não é registrada. O modelo atende apenas a parte de conversão em tratamento e de pacientes inativos; a origem do paciente está fora do escopo (seção 8, item 5, do levantamento).
