@@ -13,15 +13,15 @@
 * **Atividade Principal:** Atendimento clínico odontológico geral, procedimentos de implantodontia, confecção e entrega de próteses, clareamento e manutenção preventivo-restauradora.
 * **Porte e Números Operacionais:**
   * **Volume Médio de Atendimentos:** Aprox. 7 atendimentos por semana (capacidade física/agenda para expansão).
-  * **Base de Histórico de Pacientes:** Aprox. 300 pacientes cadastrados no histórico físico/arquivos acumulados.
+  * **Base de Histórico de Pacientes:** Aprox. 20 pacientes cadastrados no histórico físico/arquivos acumulados.
   * **Estrutura Física e Equipamentos:** 1 sala de atendimento ativa equipada com cadeira odontológica (equipo).
   * **Equipe Operacional Interna:** 1 cirurgiã-dentista responsável (atuando também na gestão)
   * **Tempo de Existência:** 6 meses de funcionamento nas instalações atuais.
 * **Dados do Responsável Entrevistado e Validação:**
-  * **Responsável Técnica / Gestora:** Dra. Tamires Sued (Cirurgiã-Dentista e Proprietária).
+  * **Responsável Técnica / Gestora:** Dra. Tamires Pereira (Cirurgiã-Dentista e Proprietária).
   * **Telefone de Contato da Clínica:** (11) 95387-7504 *(contato informado na entrevista de campo)*.
 * **Endereço:** Praça Nelson Sales de Abreu, 103 - Sl 04, Cidade Patriarca, São Paulo - SP, CEP 03547-100.
-* **Presença Digital e Evidência:**
+* **Presença Digital e Evidência:** 
   * **Perfil no Google Meu Negócio:** a responsável informou que a clínica possui perfil no Google Meu Negócio. A ficha da empresa pode ser vista no Google Maps: [Clínica Sued Odontologia Humanizada no Google Maps](https://maps.app.goo.gl/E1UdxAZoc6zMUEYx5).
 * **Declaração de Vínculo do Grupo:** a integrante **Letícia Santos da Silva** tem parentesco com a proprietária da clínica, a Dra. Tamires Sued: são **primas**. Declaramos o vínculo por transparência. A pesquisa de campo foi feita por entrevista e observação presencial, como descrito na seção 2, e o parentesco não substitui esse levantamento. Nenhum outro integrante do grupo declarou vínculo com a organização.
  
@@ -32,16 +32,16 @@
 
 * **Data e Hora da Entrevista:** 24 de outubro de 2026.
 * **Local:** Instalações físicas da Clínica Sued Odontologia Humanizada.
-* **Entrevistada:** Dra. Tamires Sued (Cirurgiã-Dentista / Gestora).
+* **Entrevistada:** Dra. Tamires Pereira (Cirurgiã-Dentista / Gestora).
 * **Participantes do Grupo:** Letícia Santos da Silva
 * **Evidências Fotográficas:**
   * **Foto da visita de campo:** [`imagens/foto_visita.jpeg`](../imagens/foto_visita.jpeg)
 
     ![Foto da visita de campo à Clínica Sued Odontologia Humanizada](../imagens/foto_visita.jpeg)
 
-  * **Foto da clínica (ambiente e instalações):** [`imagens/foto_clinica.jpg`](../imagens/foto_clinica.jpg)
-
-    ![Foto do ambiente da Clínica Sued Odontologia Humanizada](../imagens/foto_clinica.jpg)
+  * **Foto da clínica (ambiente e instalações):** [`imagens/foto_visita.jpeg`](../imagens/foto-recepção.jpeg)
+    
+    [`imagens/foto_visita.jpeg`](../imagens/foto-consultorio.jpeg)
 
 ---
 
