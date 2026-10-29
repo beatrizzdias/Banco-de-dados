@@ -117,8 +117,6 @@ Os cinco fluxos principais, com os dados envolvidos (detalhe completo na seção
 
 **Requisitos não funcionais:**
 
-> [COMPLETAR/CONFIRMAR: os RNF abaixo foram escritos a partir do dicionário de dados e do script, pois o levantamento não os lista. Compare com os RNF da Entrega 1 e ajuste.]
-
 | Código | Requisito |
 | :---- | :---- |
 | RNF01 | **SGBD:** MySQL 8.0, engine InnoDB, codificação `utf8mb4`; o script deve executar em banco vazio sem erros. |
@@ -170,13 +168,12 @@ As regras estão em [`levantamento/levantamento.md`](levantamento/levantamento.m
 
 O DER foi criado no **brModelo** e segue a notação do brModelo: entidades em retângulo, relacionamentos em losango, cardinalidade `(mín, máx)` dos dois lados, atributos em círculo, `procedimento_realizado` como entidade associativa (retângulo envolvendo o losango `inclui`) e **sem chaves estrangeiras**. O DER não tem generalização nem autorrelacionamento. As cardinalidades são lidas "do outro lado" (o par ao lado de uma entidade diz quantas ocorrências dela se associam a uma ocorrência da outra), como explica a seção 1 do dicionário.
 
-![DER conceitual revisado, na notação do brModelo](diagramas/DER_conceitual.png)
+ ![Diagrama Entidade-Relacionamento](DiagramaDER.jpg)
 
 **Caso A — mesma organização da Entrega 1.** Registro de cada apontamento da correção da Entrega 1:
 
 
 
-> [COMPLETAR: a organização da Entrega 1 era a Clínica Sued? Se sim, este é o Caso A e a tabela acima precisa ser preenchida com a correção recebida. Se a organização da E1 era outra ou fictícia, trocar por Caso B e remover a tabela.]
 
 ### 1.2 Conversão do Modelo Conceitual para o Modelo Lógico
 
@@ -281,7 +278,7 @@ O ponto de partida foi a ficha de papel da clínica, em que paciente, telefones,
 - quanto há a receber e há quanto tempo;
 - quais pacientes estão sem retorno e quantos entram em tratamento.
 
-**KPIs propostos.** Cada um tem fórmula, período e consulta do script que o calcula. As metas devem ser definidas com a responsável: [COMPLETAR: metas combinadas com a Dra. Tamires, por exemplo para taxa de perda de agenda e atendimentos por semana].
+**KPIs propostos.** Cada um tem fórmula, período e consulta do script que o calcula. As metas devem ser definidas com a responsável:
 
 | KPI | Fórmula | Período | Consulta |
 | :---- | :---- | :---- | :---- |
@@ -328,7 +325,8 @@ O ponto de partida foi a ficha de papel da clínica, em que paciente, telefones,
 
 O modelo lógico foi criado no **brModelo**, na notação do modelo lógico do brModelo (tabelas, colunas com tipo, marcas `PK` e `FK` e cardinalidade `(mín, máx)` em cada ponta).
 
-![Modelo lógico relacional, na notação do brModelo](diagramas/Modelo_logico.png)
+ ![Modelo lógico](Modelologico.jpg)
+
 
 - Arquivo: [`diagramas/Modelo_logico.png`](diagramas/Modelo_logico.png) ([PDF](diagramas/Modelo_logico.pdf)).
 - As demais restrições de integridade (`NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`) não aparecem no diagrama e estão documentadas no [dicionário de dados](docs/dicionario_dados.html) e implementadas no [script SQL](docs/script.sql).
