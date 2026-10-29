@@ -72,8 +72,7 @@
     - A confirmação dos pacientes do dia é feita por mensagens de WhatsApp enviadas no balcão de recepção;
     - Durante a consulta, a dentista anota os procedimentos em ficha física de evolução, em papel, sobre a mesa do consultório;
     - Pacientes em tratamentos continuados de prótese e implante fazem acertos parciais na recepção, e o controle da parte pendente era feito em cadernos, o que confirmou a necessidade do campo `status` (`pendente` ou `pago`) em `pagamento`.
-  - **Nova visita e mudanças em relação à Entrega 1:** [COMPLETAR: informar se houve nova visita além da entrevista da Entrega 1 e o que mudou em processos, regras, volumes e problemas].
-
+ 
 #### Processos de negócio
 
 Os cinco fluxos principais, com os dados envolvidos (detalhe completo na seção 3 do levantamento):
