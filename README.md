@@ -45,7 +45,11 @@
 
     ![Foto da visita de campo à Clínica Sued Odontologia Humanizada](imagens/foto_visita.jpeg)
 
-    ![Foto do ambiente da Clínica Sued Odontologia Humanizada](imagens/foto_clinica.jpg)
+  * **Foto da clínica (ambiente e instalações):**
+ 
+    ![Fotos da Clínica Sued Odontologia Humanizada](imagens/foto-recepção.jpeg)
+
+    ![Foto da da Clínica Sued Odontologia Humanizada](imagens/foto-consultorio.jpeg)
 
 - **Responsável pela organização:** Dra. Tamires Pereira (cirurgiã-dentista, proprietária e gestora).
 -  Telefone: (11) 95387-7504.
