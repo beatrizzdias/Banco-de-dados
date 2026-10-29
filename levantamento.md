@@ -35,13 +35,14 @@
 * **Entrevistada:** Dra. Tamires Pereira (Cirurgiã-Dentista / Gestora).
 * **Participantes do Grupo:** Letícia Santos da Silva
 * **Evidências Fotográficas:**
-  * **Foto da visita de campo:** [`imagens/foto_visita.jpeg`](../imagens/foto_visita.jpeg)
+  * **Foto da visita de campo:**     ![Foto da visita à Clínica Sued Odontologia Humanizada](imagens/foto_visita.jpeg)
 
-    ![Foto da visita de campo à Clínica Sued Odontologia Humanizada](../imagens/foto_visita.jpeg)
+  * **Foto da clínica (ambiente e instalações):**
+ 
+    ![Fotos da Clínica Sued Odontologia Humanizada](imagens/foto-recepção.jpeg)
 
-  * **Foto da clínica (ambiente e instalações):** [`imagens/foto_visita.jpeg`](../imagens/foto-recepção.jpeg)
-    
-    [`imagens/foto_visita.jpeg`](../imagens/foto-consultorio.jpeg)
+    !(imagens/foto-consultorio.jpeg)
+
 
 ---
 
