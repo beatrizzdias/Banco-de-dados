@@ -174,11 +174,7 @@ O DER foi criado no **brModelo** e segue a notação do brModelo: entidades em r
 
 **Caso A — mesma organização da Entrega 1.** Registro de cada apontamento da correção da Entrega 1:
 
-| Apontamento da correção da E1 | O que mudou no trabalho | Por quê |
-| :---- | :---- | :---- |
-| [COMPLETAR: apontamento 1 da correção da E1] | [COMPLETAR: o que foi alterado] | [COMPLETAR: justificativa] |
-| [COMPLETAR: apontamento 2] | [COMPLETAR] | [COMPLETAR] |
-| [COMPLETAR: apontamento 3 — se o grupo discordou e manteve o modelo, registrar aqui com a justificativa] | [COMPLETAR] | [COMPLETAR] |
+
 
 > [COMPLETAR: a organização da Entrega 1 era a Clínica Sued? Se sim, este é o Caso A e a tabela acima precisa ser preenchida com a correção recebida. Se a organização da E1 era outra ou fictícia, trocar por Caso B e remover a tabela.]
 
