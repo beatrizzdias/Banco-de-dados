@@ -8,10 +8,9 @@
 
 | Nome completo do aluno | RGM | Usuário do GitHub |
 | :---- | :---- | :---- |
-| Letícia Santos da Silva | [COMPLETAR: RGM] | [COMPLETAR: usuário do GitHub] |
-| [COMPLETAR: nome completo do integrante 2] | [COMPLETAR: RGM] | [COMPLETAR: usuário do GitHub] |
-| [COMPLETAR: nome completo do integrante 3] | [COMPLETAR: RGM] | [COMPLETAR: usuário do GitHub] |
-| [COMPLETAR: demais integrantes] | [COMPLETAR: RGM] | [COMPLETAR: usuário do GitHub] |
+| Letícia Santos da Silva | 47551976 | leticiassantt |
+| Beatriz Fonseca Dias | 47272139 | bia12diasfonseca-cyber |
+| Vitoria Aparecida de Assis Silva  | 46625909 | vitoriaapassis |
 
 &nbsp;
 
