@@ -425,13 +425,11 @@ Estrutura de arquivos na branch `main`:
 | `README.md` | Este Relatório Técnico |
 | `levantamento/levantamento.md` | Levantamento de requisitos e análise da organização |
 | `imagens/foto_visita.jpeg`, `imagens/foto_clinica.jpg` | Fotos da visita e da clínica |
-| `diagramas/` | DER conceitual e modelo lógico (brModelo), em PNG e PDF |
+| `DiagramaDER.jpg` `Modelo_logico.jpg` | DER conceitual e modelo lógico (brModelo), em PNG e PDF |
 | `docs/dicionario_dados.html` | Dicionário de dados atualizado (arquivo HTML único) |
 | `docs/script.sql` | Script SQL completo, com a massa de dados |
-| [COMPLETAR: pasta ou arquivo dos slides] | Slides do pitch |
 
 - **Dicionário de dados:** [`docs/dicionario_dados.html`](docs/dicionario_dados.html) (v1.2), com as restrições de cada coluna (obrigatoriedade, unicidade, valores permitidos e valor padrão), as cardinalidades, o log de acesso e a matriz de acesso por perfil (LGPD).
-- **Histórico de commits e colaboração:** [COMPLETAR: confirmar que cada integrante fez commits com a própria conta, que o nome na conta do GitHub é compatível com o da tabela de Integrantes e que o histórico está distribuído ao longo dos dias, e não em um único commit final].
 
 ---
 
@@ -459,7 +457,7 @@ Estrutura de arquivos na branch `main`:
 | **Motivação** | Verificar se os cinco artefatos estavam coerentes entre si e com o que o professor pediu. |
 | **Prompt(s)** | "eu preciso q vc confira tudo e diga se está certo, porfavor"; "confere se o levantamento está correto". |
 | **Resposta recebida** | A IA executou o script do zero no MySQL 8.0.46 (sem erros) e listou inconsistências: número de dentistas, numeração divergente de P, RF e RN entre levantamento, script e dicionário, volume de pacientes (20 no script e 300 no levantamento), `UNIQUE` de horário bloqueando agendamentos cancelados, agendamentos `realizado` posteriores à data de referência, tabela `pagamento` sem data e problema P sem consulta. |
-| **Fontes consultadas e verificadas** | O grupo conferiu os apontamentos abrindo os arquivos e rodando as consultas no Workbench. [COMPLETAR: quais apontamentos foram verificados e corrigidos pelo grupo.] |
+| **Fontes consultadas e verificadas** | O grupo conferiu os apontamentos abrindo os arquivos e rodando as consultas no Workbench.
 | **Trechos rejeitados ou corrigidos** | A IA entendeu "Dra. Tamires" e "Dra. Sued" como duas dentistas e concluiu que o modelo deveria ter 2; na verdade é uma pessoa só (Dra. Tamires Sued) e o modelo com 1 dentista está correto. O grupo corrigiu o levantamento. |
 | **Justificativa da escolha final** | O grupo manteve os apontamentos que se confirmaram nos arquivos e descartou o que partiu de interpretação errada da IA. |
 | **Reflexão crítica** | A IA interpretou nomes sem confirmação e só conseguiu avaliar o que estava nos arquivos enviados; não substitui a conferência com a responsável da clínica. |
@@ -472,9 +470,9 @@ Estrutura de arquivos na branch `main`:
 | **Motivação** | Alinhar os códigos do levantamento com os do script e do dicionário, e organizar o relatório na estrutura exigida. |
 | **Prompt(s)** | "vc consegue arrumar os codigos RN, RF e P no levantamento e me mandar por favor"; envio do esqueleto da Entrega 2 e dos artefatos pedindo que o README seguisse o esqueleto, com marcações onde faltasse informação. |
 | **Resposta recebida** | Levantamento com P1–P6, RF01–RF13 e RN01–RN27 alinhados ao script e ao dicionário, e este README. |
-| **Fontes consultadas e verificadas** | Os dados do README foram extraídos dos arquivos do grupo (levantamento, script, dicionário, DER e modelo lógico). [COMPLETAR: o grupo revisou e conferiu o texto contra os arquivos?] |
-| **Trechos rejeitados ou corrigidos** | [COMPLETAR: o que o grupo alterou no texto gerado] |
-| **Justificativa da escolha final** | [COMPLETAR] |
+| **Fontes consultadas e verificadas** | Os dados do README foram extraídos dos arquivos do grupo (levantamento, script, dicionário, DER e modelo lógico). |
+| **Trechos rejeitados ou corrigidos** ||
+| **Justificativa da escolha final** | |
 | **Reflexão crítica** | Os RNF, as regras RN04, RN05, RN06, RN10 e RN12 e as metas dos KPIs foram redigidos pela IA a partir dos artefatos, sem confirmação com a clínica; por isso precisam de revisão do grupo. |
 
 ### Outros usos de IA
