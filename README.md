@@ -413,7 +413,6 @@ A massa de dados está **incluída no script** ([`docs/SQL.sql`](docs/SQL.sql), 
 
 **Variedade para os testes:** agendamentos realizados, cancelados, remarcados, faltas e ainda `agendado`; paciente sem nenhum agendamento; pacientes sem retorno há mais de 90 dias; pagamentos em Pix, crédito, débito e dinheiro; pagamentos pendentes antigos; despesas pendentes e vencidas; despesas ligadas e não ligadas a tratamento; agendamentos passados esquecidos como `agendado`. Com isso as consultas gerenciais e de auditoria retornam linhas que demonstram o resultado.
 
-**Uso de IA na massa de dados:** [COMPLETAR: informar se a massa de dados foi gerada com IA, quais ferramentas e prompts, e registrar na seção 6].
 
 ---
 
