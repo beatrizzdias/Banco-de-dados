@@ -40,7 +40,7 @@
 - **Evidências da organização:**
   - **Endereço:** Praça Nelson Sales de Abreu, 103 — Sl 04, Cidade Patriarca, São Paulo — SP, CEP 03547-100.
   - **Google Meu Negócio / Google Maps:** a responsável informou que a clínica tem perfil no Google Meu Negócio. A ficha pode ser vista em [Clínica Sued Odontologia Humanizada no Google Maps](https://maps.app.goo.gl/E1UdxAZoc6zMUEYx5).
-  - **Contato:** telefone da clínica (11) 95387-7504.
+  - **Contato:** Telefone da clínica: (11) 95387-7504.
   - **Fotos (arquivos no repositório):**
 
     ![Foto da visita de campo à Clínica Sued Odontologia Humanizada](imagens/foto_visita.jpeg)
