@@ -325,11 +325,11 @@ O ponto de partida foi a ficha de papel da clínica, em que paciente, telefones,
 
 O modelo lógico foi criado no **brModelo**, na notação do modelo lógico do brModelo (tabelas, colunas com tipo, marcas `PK` e `FK` e cardinalidade `(mín, máx)` em cada ponta).
 
- ![Modelo lógico](Modelologico.jpg)
+ ![Modelo lógico](Modelo_logico.jpg)
 
 
 - Arquivo: [`diagramas/Modelo_logico.png`](diagramas/Modelo_logico.png) ([PDF](diagramas/Modelo_logico.pdf)).
-- As demais restrições de integridade (`NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`) não aparecem no diagrama e estão documentadas no [dicionário de dados](docs/dicionario_dados.html) e implementadas no [script SQL](docs/script.sql).
+- As demais restrições de integridade (`NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`) não aparecem no diagrama e estão documentadas no [dicionário de dados](docs/dicionario_dados.html) e implementadas no [script SQL](docs/SQL.sql).
 - Valores monetários aparecem como `FLOAT` no diagrama porque o brModelo não oferece `DECIMAL`; no dicionário e no script são `DECIMAL(10,2)`.
 
 ---
