@@ -21,7 +21,7 @@
 - **Nome e natureza da organização:** Clínica Sued Odontologia Humanizada, clínica odontológica particular (prestação de serviços de saúde odontológica), com fins lucrativos. A atividade principal é o atendimento clínico odontológico geral, com procedimentos de implantodontia, confecção e entrega de próteses, clareamento e manutenção preventivo-restauradora.
 - **Contexto e porte (em números):**
   - cerca de **7 atendimentos por semana**, com capacidade de agenda para expansão;
-  - cerca de **20 pacientes** no histórico físico acumulado (fichas em papel);
+  - cerca de **28 pacientes** no histórico físico acumulado (fichas em papel);
   - **1 sala de atendimento** com 1 cadeira odontológica (equipo);
   - **1 cirurgiã-dentista**, que também faz a gestão da clínica (não há outros profissionais cadastrados);
   - **6 meses** de funcionamento nas instalações atuais;
