@@ -1,4 +1,4 @@
-#  — Modelo Lógico, Implementação SQL e Apresentação Final
+# Entrega 2 — Modelo Lógico, Implementação SQL e Apresentação Final
 
 ### Clínica Sued Odontologia Humanizada — sistema de gestão de informações
 
