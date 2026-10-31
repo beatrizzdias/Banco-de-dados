@@ -18,7 +18,7 @@
 
 #### Caracterização da organização
 
-- **Nome e natureza da organização:** Clínica Sued Odontologia Humanizada, clínica odontológica particular (prestação de serviços de saúde odontológica), com fins lucrativos. A atividade principal é o atendimento clínico odontológico geral, com procedimentos de implantodontia, confecção e entrega de próteses, clareamento e manutenção preventivo-restauradora.
+- **Nome e natureza da organização:** Clínica Sued Odontologia Humanizada, clínica odontológica particular (prestação de serviços de saúde odontológica), com fins lucrativos. A atividade principal é o atendimento clínico odontológico geral, com procedimentos de implantodontia, confecção e entrega de próteses, clareamento e manutenção preventivo-restaurador
 - **Contexto e porte (em números):**
   - cerca de **7 atendimentos por semana**, com capacidade de agenda para expansão;
   - cerca de **20 pacientes** no histórico físico acumulado (fichas em papel);
