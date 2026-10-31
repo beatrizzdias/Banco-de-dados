@@ -51,7 +51,7 @@
 
     ![Foto da da Clínica Sued Odontologia Humanizada](imagens/foto-consultorio.jpeg)
 
-- **Responsável pela organização:** Dra. Tamires Pereira (cirurgiã-dentista, proprietária e gestora).
+- **Responsável pela organização:** Dra. Tamires Pereira. (cirurgiã-dentista, proprietária e gestora).
 -  Telefone: (11) 95387-7504.
 
 #### Relato da entrevista
