@@ -170,7 +170,7 @@ O DER foi criado no **brModelo** e segue a notação do brModelo: entidades em r
 
  ![Diagrama Entidade-Relacionamento](DiagramaDER.jpg)
 
-**Caso A — mesma organização da Entrega 1.** A organização é a mesma da Entrega 1, a Clínica Sued Odontologia Humanizada (mesmo endereço e mesma responsável, com entrevista presencial e foto na clínica). A correção da Entrega 1 foi recebida em 01/10/2026, com nota 1,075 de 1,60 e descontos nos critérios de processos, regras de negócio, dicionário de dados, DER e justificativa técnica. A tabela abaixo registra, para cada apontamento da correção, o que foi feito. O repositório da Entrega 1 está em [Entrega-1-Banco-de-dados](https://github.com/bia12diasfonseca-cyber/Entrega-1-Banco-de-dados).
+**Caso A — mesma organização da Entrega 1.** A organização é a mesma da Entrega 1, a Clínica Sued Odontologia Humanizada (mesmo endereço e mesma responsável, com entrevista presencial e foto na clínica). A correção da Entrega 1 foi recebida em 01/10/2026, com nota 1,075 de 1,60 e descontos nos critérios de processos, regras de negócio, dicionário de dados, DER e justificativa técnica. A tabela abaixo registra, para cada apontamento da correção, o que foi feito.
 
 | Apontamento da correção da E1 | O que mudou no trabalho | Por quê |
 | :---- | :---- | :---- |
@@ -350,7 +350,7 @@ O modelo lógico foi criado no **brModelo**, na notação do modelo lógico do b
 
 
 - Arquivo: [`diagramas/Modelo_logico.png`](diagramas/Modelo_logico.png) ([PDF](diagramas/Modelo_logico.pdf)).
-- As demais restrições de integridade (`NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`) não aparecem no diagrama e estão documentadas no [dicionário de dados](docs/dicionario_dados.html) e implementadas no [script SQL](docs/SQL.sql).
+- As demais restrições de integridade (`NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`) não aparecem no diagrama e estão documentadas no [dicionário de dados](dicionario_dados.html) e implementadas no [script SQL](docs/SQL.sql).
 - Valores monetários aparecem como `FLOAT` no diagrama porque o brModelo não oferece `DECIMAL`; no dicionário e no script são `DECIMAL(10,2)`.
 
 ---
