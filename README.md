@@ -155,7 +155,7 @@ As regras estão em [`levantamento/levantamento.md`](levantamento/levantamento.m
 | RN19 | CPF opcional; se informado, tem 11 dígitos e é único. | `UNIQUE` e `CHECK` com regex; consulta A10. |
 | RN20 | Prontuário guardado por 20 anos, sem exclusão física. | Chaves estrangeiras `ON DELETE RESTRICT`. |
 | RN21 | `despesa.valor` é maior que zero. | `CHECK`. |
-| RN22 | `info_saude` é dado sensível de saúde (LGPD) e só dentista e auditoria o veem. | Matriz de acesso do dicionário (seção 6). [COMPLETAR: informar como será implementado, por exemplo view para a recepção e perfis no MySQL.] |
+| RN22 | `info_saude` é dado sensível de saúde (LGPD) e só dentista e auditoria o veem. | Matriz de acesso do dicionário (seção 6). |
 | RN23 | Telefone só com dígitos (10 ou 11, com DDD). | `CHECK` com regex. |
 | RN24 | Convênio com estrutura enxuta (identificador e nome). | Modelo da tabela `convenio`. |
 | RN25 | Paciente sem vínculo em `paciente_convenio` é particular. | Ausência de linhas na tabela de ligação. |
@@ -190,7 +190,7 @@ O DER foi criado no **brModelo** e segue a notação do brModelo: entidades em r
 | **DER:** `MATERIAL / ESTOQUE` ausente (apenas sugestão). | Mantido fora, pelo mesmo motivo do estoque nos processos: a clínica não controla estoque. | A sugestão não se aplica à realidade observada na clínica. |
 | **Justificativa técnica (critério 11):** defendia entidades que não estavam no DER (`ATENDIMENTO_PROCEDIMENTO` e "Agendamento como agrupador de vários Atendimentos"). | A seção 1.5 deste README foi reescrita sobre o DER e o modelo lógico atuais: a associativa `procedimento_realizado`, o agendamento ligado ao tratamento, `pagamento` como entidade 1:N com o agendamento, `convenio` enxuto e as restrições com o código RN de cada uma. | A justificativa precisa se referir só ao que existe no modelo. |
 | **Observação:** porte muito pequeno (uma dentista, cerca de 20 pacientes), no limite do aceitável. | O levantamento passou a registrar os números reais da clínica: 7 atendimentos por semana, cerca de 20 pacientes no histórico, 1 sala, 6 meses de funcionamento, 7 procedimentos e 7 categorias de despesa. O modelo cobre todos os dados da clínica, e não só um setor. | O porte é o da clínica e não pode ser aumentado; o que o grupo pode fazer é documentá-lo com números e garantir que o modelo cubra toda a operação. |
-| **Observação:** o `DiagramaDER.pdf` da E1 não foi aberto na correção. | O DER e o modelo lógico agora estão em PNG no repositório (`diagramas/`), com o PDF ao lado, e aparecem na imagem dentro deste README. | Arquivo em formato de imagem é visualizado direto na correção. |
+| **Observação:** o `DiagramaDER.pdf` da E1 não foi aberto na correção. | O DER e o modelo lógico estão no repositório e aparece as imagens dentro deste README. | Arquivo em formato de imagem é visualizado direto na correção. |
 
 &nbsp;
 
@@ -321,7 +321,7 @@ O ponto de partida foi a ficha de papel da clínica, em que paciente, telefones,
 | Problema ou KPI | Tabelas envolvidas | Consulta no script |
 | :---- | :---- | :---- |
 | P1 — prontuário e histórico em papel (histórico do paciente) | `paciente`, `agendamento`, `procedimento_realizado`, `procedimento` | G06, G11, G14 |
-| P1 — acesso restrito a dados de saúde e trilha de auditoria (RF10, RN22) | `paciente` | [COMPLETAR: ainda sem consulta no script; incluir uma consulta ou view que demonstre a restrição de `info_saude`] |
+| P1 — acesso restrito a dados de saúde e trilha de auditoria (RF10, RN22) | `paciente` |  |
 | P2 — agendamento manual | `agendamento`, `paciente`, `dentista` | G03, G04, G05, A02, A12 |
 | P3 — pagamentos sem registro | `pagamento`, `agendamento`, `paciente` | G01, G02, A07, A08 |
 | P4 — busca lenta de pacientes e do financeiro | `paciente`, `telefone`, `pagamento` | G11, G02, G09 |
@@ -349,7 +349,7 @@ O modelo lógico foi criado no **brModelo**, na notação do modelo lógico do b
  ![Modelo lógico](Modelo_logico.jpg)
 
 
-- Arquivo: [`diagramas/Modelo_logico.png`](diagramas/Modelo_logico.png) ([PDF](diagramas/Modelo_logico.pdf)).
+- Arquivo: [`diagramas/Modelo_logico.png`](Modelo_logico.png) .
 - As demais restrições de integridade (`NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`) não aparecem no diagrama e estão documentadas no [dicionário de dados](dicionario_dados.html) e implementadas no [script SQL](docs/SQL.sql).
 - Valores monetários aparecem como `FLOAT` no diagrama porque o brModelo não oferece `DECIMAL`; no dicionário e no script são `DECIMAL(10,2)`.
 
@@ -445,10 +445,10 @@ Estrutura de arquivos na branch `main`:
 | :---- | :---- |
 | `README.md` | Este Relatório Técnico |
 | `levantamento/levantamento.md` | Levantamento de requisitos e análise da organização |
-| `imagens/foto_visita.jpeg`, `imagens/foto_clinica.jpg` | Fotos da visita e da clínica |
-| `DiagramaDER.jpg` `Modelo_logico.jpg` | DER conceitual e modelo lógico (brModelo), em PNG e PDF |
-| `docs/dicionario_dados.html` | Dicionário de dados atualizado (arquivo HTML único) |
-| `docs/script.sql` | Script SQL completo, com a massa de dados |
+| `imagens/foto_visita.jpeg`, `imagens/foto-consultorio.jpg`, `imagens/foto-recpeção.jpg` | Fotos da visita e da clínica |
+| `DiagramaDER.jpg` `Modelo_logico.jpg` | DER conceitual e modelo lógico (brModelo), em PNG |
+| `dicionario_dados.html` | Dicionário de dados atualizado (arquivo HTML único) |
+| `docs/SQL.sql` | Script SQL completo, com a massa de dados |
 
 - **[Dicionário de Dados (HTML)](   https://beatrizzdias.github.io/Banco-de-dados/dicionario_dados.html)** (v1.2), com as restrições de cada coluna (obrigatoriedade, unicidade, valores permitidos e valor padrão), as cardinalidades, o log de acesso e a matriz de acesso por perfil (LGPD).
 
