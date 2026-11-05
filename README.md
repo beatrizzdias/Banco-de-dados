@@ -489,7 +489,7 @@ Estrutura de arquivos na branch `main`:
 | :---- | :---- |
 | **Ferramenta e etapa** | Claude (Anthropic), na renumeração de P, RF e RN do `levantamento.md` e na redação deste README a partir do esqueleto do professor. |
 | **Motivação** | Alinhar os códigos do levantamento com os do script e do dicionário, e organizar o relatório na estrutura exigida. |
-| **Prompt(s)** | "Você consegue revisar e corrigir os códigos RN, RF e P do documento de levantamento e me enviar a versão corrigida?"; "envio do esqueleto da Entrega 2 e dos artefatos pedindo que o README seguisse o esqueleto, com marcações onde faltasse informação". |
+| **Prompt(s)** | "Você consegue revisar e corrigir os códigos RN, RF e P do documento de levantamento e me enviar a versão corrigida?"; "Estou enviando o esqueleto da Entrega 2 e os arquivos do projeto. Quero que você faça o README seguindo a estrutura solicitada no esqueleto, respeitando os tópicos e a organização definidos pelo professor. Caso falte alguma informação, não invente nem tente preencher por conta própria. Deixe uma marcação indicando exatamente o que está faltando e onde essa informação deve ser inserida. Preserve as informações corretas que já estão nos documentos." |
 | **Resposta recebida** | Levantamento com P1–P6, RF01–RF13 e RN01–RN27 alinhados ao script e ao dicionário, e este README. |
 | **Fontes consultadas e verificadas** | Os dados do README foram extraídos dos arquivos do grupo (levantamento, script, dicionário, DER e modelo lógico). |
 | **Trechos rejeitados ou corrigidos** ||
