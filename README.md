@@ -57,7 +57,7 @@
 #### Relato da entrevista
 
 - **Quem:** entrevistada: Dra. Tamires Pereira (cirurgiã-dentista e gestora). Integrantes do grupo presente: Letícia Santos da Silva.
-- **Quando e onde:** 7 de outubro de 2026, nas instalações físicas da clínica (Praça Nelson Sales de Abreu, 103 — Sl 04, São Paulo — SP).
+- **Quando e onde:** 7 de setembro de 2026, nas instalações físicas da clínica (Praça Nelson Sales de Abreu, 103 — Sl 04, São Paulo — SP).
 - **Comprovação:** fotos em `imagens/foto_visita.jpeg` e `imagens/foto_clinica.jpg`, exibidas na seção anterior.
 - **O que foi levantado (resumo).** O texto completo está em [`levantamento/levantamento.md`](levantamento/levantamento.md).
   - **O que a responsável informou (entrevista):**
