@@ -450,7 +450,7 @@ Estrutura de arquivos na branch `main`:
 | `docs/dicionario_dados.html` | Dicionário de dados atualizado (arquivo HTML único) |
 | `docs/script.sql` | Script SQL completo, com a massa de dados |
 
-- **Dicionário de dados:** [`docs/dicionario_dados.html`](docs/dicionario_dados.html) (v1.2), com as restrições de cada coluna (obrigatoriedade, unicidade, valores permitidos e valor padrão), as cardinalidades, o log de acesso e a matriz de acesso por perfil (LGPD).
+- **[Dicionário de Dados (HTML)](dicionario_dados.html)** (v1.2), com as restrições de cada coluna (obrigatoriedade, unicidade, valores permitidos e valor padrão), as cardinalidades, o log de acesso e a matriz de acesso por perfil (LGPD).
 
 ---
 
