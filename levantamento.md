@@ -30,7 +30,7 @@
 
 ## 2. Detalhes da Entrevista de Campo e Evidências
 
-* **Data e Hora da Entrevista:** 24 de outubro de 2026.
+* **Data e Hora da Entrevista:** 7 de Setembro de 2026.
 * **Local:** Instalações físicas da Clínica Sued Odontologia Humanizada.
 * **Entrevistada:** Dra. Tamires Pereira (Cirurgiã-Dentista / Gestora).
 * **Participantes do Grupo:** Letícia Santos da Silva
