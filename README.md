@@ -321,7 +321,7 @@ O ponto de partida foi a ficha de papel da clínica, em que paciente, telefones,
 | Problema ou KPI | Tabelas envolvidas | Consulta no script |
 | :---- | :---- | :---- |
 | P1 — prontuário e histórico em papel (histórico do paciente) | `paciente`, `agendamento`, `procedimento_realizado`, `procedimento` | G06, G11, G14 |
-| P1 — acesso restrito a dados de saúde e trilha de auditoria (RF10, RN22) | `paciente` |  |
+| P1 — acesso restrito a dados de saúde e trilha de auditoria (RF10, RN22) | `paciente` | G06 |
 | P2 — agendamento manual | `agendamento`, `paciente`, `dentista` | G03, G04, G05, A02, A12 |
 | P3 — pagamentos sem registro | `pagamento`, `agendamento`, `paciente` | G01, G02, A07, A08 |
 | P4 — busca lenta de pacientes e do financeiro | `paciente`, `telefone`, `pagamento` | G11, G02, G09 |
