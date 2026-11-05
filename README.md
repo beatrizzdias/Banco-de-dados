@@ -9,7 +9,7 @@
 | Nome completo do aluno | RGM | Usuário do GitHub |
 | :---- | :---- | :---- |
 | Letícia Santos da Silva | 47551976 | leticiassantt |
-| Beatriz Fonseca Dias | 47272139 | bia12diasfonseca-cyber |
+| Beatriz Fonseca Dias | 47272139 | beatrizzdias |
 | Vitoria Aparecida de Assis Silva  | 46625909 | vitoriaapassis |
 
 &nbsp;
