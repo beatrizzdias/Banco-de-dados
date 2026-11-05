@@ -36,7 +36,8 @@
   - **P5 — Captação de clientes (atendido parcialmente):** a origem do paciente não é registrada. O modelo atende apenas a parte de conversão em tratamento e de pacientes inativos; a origem do paciente está fora do escopo (seção 8, item 5, do levantamento).
   - **P6 — Despesas em planilha separada:** as despesas ficam em planilha simples, sem vínculo com os tratamentos (ex.: laboratório de prótese) e sem controle de vencimentos, o que impede apurar o custo direto e a margem por tratamento.
 - **Escopo do sistema:** o banco reúne **todos os dados da clínica**, e não só um setor: pacientes, telefones e convênios; dentista e especialidades; agendamentos; planos de tratamento; catálogo de procedimentos e procedimentos realizados; pagamentos; e despesas com suas categorias. São 14 tabelas.
-- **Justificativa da escolha:** Fatos já registrados no levantamento: a clínica está em operação, com processos controlados em papel, Google Agenda, cadernos e planilha, e o grupo tem acesso direto à proprietária. **Vínculo declarado:** a integrante **Letícia Santos da Silva** é prima da proprietária, a Dra. Tamires Pereira. O vínculo não substitui a entrevista e a observação presencial feitas no ambiente da clínica, descritas abaixo. Nenhum outro integrante declarou vínculo.
+- **Justificativa da escolha:** escolhemos a clínica porque ela pertence à prima de uma das integrantes, o que facilitaria nosso contato. Porém, o principal motivo foi ser uma clínica nova, e vimos no projeto uma oportunidade de ajudá-la a crescer, criando um banco de dados que pudesse ser realmente utilizado na organização e no funcionamento da clínica.
+- **Vínculo declarado:** a integrante **Letícia Santos da Silva** é prima da proprietária, a Dra. Tamires Pereira. O vínculo não substitui a entrevista e a observação presencial feitas no ambiente da clínica, descritas abaixo. Nenhum outro integrante declarou vínculo.
 - **Evidências da organização:**
   - **Endereço:** Praça Nelson Sales de Abreu, 103 — Sl 04, Cidade Patriarca, São Paulo — SP, CEP 03547-100.
   - **Google Meu Negócio / Google Maps:** a responsável informou que a clínica tem perfil no Google Meu Negócio. A ficha pode ser vista em [Clínica Sued Odontologia Humanizada no Google Maps](https://maps.app.goo.gl/E1UdxAZoc6zMUEYx5).
@@ -419,7 +420,7 @@ A massa de dados está **incluída no script** ([`docs/SQL.sql`](docs/SQL.sql), 
 
 | Tabela | Registros | Justificativa |
 | :---- | :---- | :---- |
-| `paciente` | 20 | Amostra dos pacientes ativos no período coberto pelos dados (a clínica tem cerca de 300 no histórico). [CONFIRMAR: o comentário do script diz "a clínica atende cerca de 20 pacientes"; alinhar com o número de 300 do levantamento.] |
+| `paciente` | 20 | Amostra dos pacientes ativos no período coberto pelos dados (a clínica tem cerca de 20 no histórico). |
 | `telefone` | 26 | Todo paciente tem ao menos 1 telefone (RN01); alguns têm 2. |
 | `convenio` / `paciente_convenio` | 1 / 3 | A clínica tem 1 convênio em implantação e poucos pacientes o usam. |
 | `dentista` | 1 | A clínica tem uma única dentista (RN05). |
@@ -478,7 +479,7 @@ Estrutura de arquivos na branch `main`:
 | **Motivação** | Verificar se os cinco artefatos estavam coerentes entre si e com o que o professor pediu. |
 | **Prompt(s)** | "Preciso que você revise todos os arquivos que enviei, comparando as informações entre eles. Verifique se estão coerentes, se não existem contradições, informações diferentes entre os documentos ou conteúdos faltando. Confira também se todos se complementam corretamente. Quero uma revisão completa e detalhada, apontando qualquer erro, inconsistência ou ajuste necessário."; "Confira se o levantamento está de acordo com o que o professor solicitou. Compare o documento com as orientações e os requisitos do professor, verificando se todos os itens foram contemplados, se estão corretos e se não falta nenhuma informação. Aponte o que precisa ser corrigido ou acrescentado." |
 | **Resposta recebida** | A IA executou o script do zero no MySQL 8.0.46 (sem erros) e listou inconsistências: número de dentistas, numeração divergente de P, RF e RN entre levantamento, script e dicionário, volume de pacientes (20 no script e 300 no levantamento), `UNIQUE` de horário bloqueando agendamentos cancelados, agendamentos `realizado` posteriores à data de referência, tabela `pagamento` sem data e problema P sem consulta. |
-| **Fontes consultadas e verificadas** | O grupo conferiu os apontamentos abrindo os arquivos e rodando as consultas no Workbench.
+| **Fontes consultadas e verificadas** | O grupo conferiu os apontamentos abrindo os arquivos e rodando as consultas no Workbench. |
 | **Trechos rejeitados ou corrigidos** | A IA entendeu "Dra. Tamires" e "Dra. Sued" como duas dentistas e concluiu que o modelo deveria ter 2; na verdade é uma pessoa só (Dra. Tamires Pereira) e o modelo com 1 dentista está correto. O grupo corrigiu o levantamento. |
 | **Justificativa da escolha final** | O grupo manteve os apontamentos que se confirmaram nos arquivos e descartou o que partiu de interpretação errada da IA. |
 | **Reflexão crítica** | A IA interpretou nomes sem confirmação e só conseguiu avaliar o que estava nos arquivos enviados; não substitui a conferência com a responsável da clínica. |
@@ -495,9 +496,6 @@ Estrutura de arquivos na branch `main`:
 | **Trechos rejeitados ou corrigidos** | No README, a IA incluiu por conta própria uma tabela de links no início, que não consta no esqueleto do professor; o grupo removeu. |
 | **Justificativa da escolha final** | Manteve o README gerado porque ele segue a estrutura do esqueleto do professor e usa dados extraídos dos próprios arquivos do grupo |
 | **Reflexão crítica** | Os RNF, as regras RN04, RN05, RN06, RN10 e RN12 e as metas dos KPIs foram redigidos pela IA a partir dos artefatos, sem confirmação com a clínica; por isso precisam de revisão do grupo. |
-
-### Outros usos de IA
-
 
 ---
 
