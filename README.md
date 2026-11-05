@@ -476,7 +476,7 @@ Estrutura de arquivos na branch `main`:
 | :---- | :---- |
 | **Ferramenta e etapa** | Claude (Anthropic), na conferência do DER, do modelo lógico, do dicionário, do script e do levantamento. |
 | **Motivação** | Verificar se os cinco artefatos estavam coerentes entre si e com o que o professor pediu. |
-| **Prompt(s)** | "eu preciso q vc confira tudo e diga se está certo, porfavor"; "confere se o levantamento está correto". |
+| **Prompt(s)** | "Preciso que você revise todos os arquivos que enviei, comparando as informações entre eles. Verifique se estão coerentes, se não existem contradições, informações diferentes entre os documentos ou conteúdos faltando. Confira também se todos se complementam corretamente. Quero uma revisão completa e detalhada, apontando qualquer erro, inconsistência ou ajuste necessário."; "confere se o levantamento está correto". |
 | **Resposta recebida** | A IA executou o script do zero no MySQL 8.0.46 (sem erros) e listou inconsistências: número de dentistas, numeração divergente de P, RF e RN entre levantamento, script e dicionário, volume de pacientes (20 no script e 300 no levantamento), `UNIQUE` de horário bloqueando agendamentos cancelados, agendamentos `realizado` posteriores à data de referência, tabela `pagamento` sem data e problema P sem consulta. |
 | **Fontes consultadas e verificadas** | O grupo conferiu os apontamentos abrindo os arquivos e rodando as consultas no Workbench.
 | **Trechos rejeitados ou corrigidos** | A IA entendeu "Dra. Tamires" e "Dra. Sued" como duas dentistas e concluiu que o modelo deveria ter 2; na verdade é uma pessoa só (Dra. Tamires Sued) e o modelo com 1 dentista está correto. O grupo corrigiu o levantamento. |
