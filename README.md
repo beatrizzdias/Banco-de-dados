@@ -492,8 +492,8 @@ Estrutura de arquivos na branch `main`:
 | **Prompt(s)** | "Você consegue revisar e corrigir os códigos RN, RF e P do documento de levantamento e me enviar a versão corrigida?"; "Estou enviando o esqueleto da Entrega 2 e os arquivos do projeto. Quero que você faça o README seguindo a estrutura solicitada no esqueleto, respeitando os tópicos e a organização definidos pelo professor. Caso falte alguma informação, não invente nem tente preencher por conta própria. Deixe uma marcação indicando exatamente o que está faltando e onde essa informação deve ser inserida. Preserve as informações corretas que já estão nos documentos." |
 | **Resposta recebida** | Levantamento com P1–P6, RF01–RF13 e RN01–RN27 alinhados ao script e ao dicionário, e este README. |
 | **Fontes consultadas e verificadas** | Os dados do README foram extraídos dos arquivos do grupo (levantamento, script, dicionário, DER e modelo lógico). |
-| **Trechos rejeitados ou corrigidos** ||
-| **Justificativa da escolha final** | |
+| **Trechos rejeitados ou corrigidos** | No README, a IA incluiu por conta própria uma tabela de links no início, que não consta no esqueleto do professor; o grupo removeu. |
+| **Justificativa da escolha final** | Manteve o README gerado porque ele segue a estrutura do esqueleto do professor e usa dados extraídos dos próprios arquivos do grupo |
 | **Reflexão crítica** | Os RNF, as regras RN04, RN05, RN06, RN10 e RN12 e as metas dos KPIs foram redigidos pela IA a partir dos artefatos, sem confirmação com a clínica; por isso precisam de revisão do grupo. |
 
 ### Outros usos de IA
