@@ -502,3 +502,5 @@ Estrutura de arquivos na branch `main`:
 ## 7. Apresentação Corporativa Final
 
 [Video apresentação](https://youtu.be/ch1iJrMaIAA?si=dSItSKFI1cAG70ws)
+
+[![Título do vídeo](https://img.youtu.be/ch1iJrMaIAA?si=dSItSKFI1cAG70ws.jpg)](https://youtu.be/ch1iJrMaIAA?si=dSItSKFI1cAG70ws)
